@@ -1,0 +1,119 @@
+﻿@keyframes csspoder {
+	5% {left: 100%;}
+	10% {left: 95%;}
+	15% {left: 90%;}
+	20% {left: 85%;}
+	25% {left: 80%;}
+	30% {left: 75%;}
+	35% {left: 70%;}
+	40% {left: 65%;}
+	45% {left: 60%;}
+	50% {left: 55%;}
+	55% {left: 50%;}
+	60% {left: 45%;}
+	65% {left: 40%;}
+	70% {left: 35%;}
+	75% {left: 30%;}
+	80% {left: 25%;}
+	85% {left: 20%;}
+	90% {left: 15%;}
+	95% {left: 10%}
+	100% {left: 2%;}
+}
+
+@keyframes csspoder2 {
+
+
+	10% {transform: scaleX(0.9);}
+	20% {transform: scaleX(0.8);}
+	30% {transform: rotate(-1deG);}
+	}	
+	
+@keyframes pontopiscador{
+	from {color: white;}
+	to {color: red;border-bottom:dotted 2px green;}
+	
+}
+body{
+	background-image: url("fundinho.jpg");
+	
+}
+
+.menudesce{
+	font-family: Impact, Charcoal, sans-serif;
+	background-color:rgb(0, 102, 255);
+    position: relative;
+	display: inline;
+	float:right;
+	border-radius: 15px;
+	padding: 5px;
+	color: white;
+}
+
+a{
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(0, 41, 102);
+	
+}
+
+.menudesceconteudo {
+
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+	color: red;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+}
+
+.menudesce:hover .menudesceconteudo {
+
+    display: block;
+	background-image: url("btw.jpg");
+	
+}
+.menudesceconteudo p:hover{
+	transition: 1s ease;
+	padding-left:35px;
+	border: dotted 2px;
+	color:green;
+	
+}
+
+h2{
+	top: -42px;
+	position: relative;
+	float: both;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	z-index: 10;
+	
+	
+}
+.conteudosite{
+	color: white;
+	position: relative;
+	background: url("terminal.jpg");
+	height: 200px;
+	width: 650px;
+	
+}
+h3 {top: -15px; position: relative; left: 11px;}
+.vaipratraz{
+	top: 25px;
+	margin-left: 140px;
+	background: transparent;
+	border: 0 none;
+	color: lime;
+	z-index: 5;
+	position:relative;
+	
+}
